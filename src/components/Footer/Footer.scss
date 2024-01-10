@@ -1,0 +1,135 @@
+footer {
+    padding: 50px 0;
+    width: 100%;
+    background: var(--bg-color);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+
+    .col-one {
+        width: 25%;
+        a {
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        p {
+            margin-top: 15px;
+            font-size: 16px;
+            color: var(--text-color);
+        }
+
+        .social-logo {
+            margin-top: 20px;
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                li {
+                    a {
+                        svg {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .col-two {
+        width: 25%;
+        .quick-links {
+            h4 {
+                color: #fff;
+                font-size: 18px;
+                line-height: 20px;
+            }
+
+            .content-links {
+                margin-top: 15px;
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    li {
+                        a {
+                            color: #fff;
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .col-three {
+        width: 25%;
+        .quick-links {
+            h4 {
+                color: #fff;
+                font-size: 18px;
+                line-height: 20px;
+            }
+
+            .content-links {
+                margin-top: 15px;
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    li {
+                        a {
+                            color: #fff;
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .col-four {
+        width: 25%;
+        .quick-links {
+            h4 {
+                color: #fff;
+                font-size: 18px;
+                line-height: 20px;
+            }
+
+            .content-links {
+                margin-top: 15px;
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+
+                        svg {
+                            color: #fff;
+
+                        }
+                        a {
+                            color: #fff;
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

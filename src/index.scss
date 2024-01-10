@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #0052cc;
+  --seconday-color: #141414;
+  --text-color: #5a5c5f;
+  --bg-color: #001029;
+  --border-color: #001029;
+}
+
+body {
+  font-family: poppins;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
