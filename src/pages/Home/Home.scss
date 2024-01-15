@@ -360,3 +360,52 @@
     }
   }
 }
+
+// Faq Section CSS
+
+.faq_section {
+  padding: 50px 0;
+
+  .section-heading {
+    h4 {
+      color: #5a5c5f;
+      font-size: 16px;
+      line-height: 28px;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      margin: 36px 0;
+      color: var(--seconday-color);
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 64px;
+      text-transform: capitalize;
+    }
+  }
+}
+
+// Our Blog Section Start
+
+.our_blog {
+  padding: 50px 0;
+
+  .blog_header {
+    text-align: center;
+    h4 {
+      color: #5a5c5f;
+      font-size: 16px;
+      line-height: 28px;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      margin: 36px 0;
+      color: var(--seconday-color);
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 64px;
+      text-transform: capitalize;
+    }
+  }
+}

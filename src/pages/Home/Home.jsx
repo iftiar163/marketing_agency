@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Home.scss";
+import { Accordion } from "react-bootstrap";
 
 const Home = () => {
   return (
@@ -167,6 +168,93 @@ const Home = () => {
                 alt=""
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ sections */}
+      <section className="faq_section">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="section-heading">
+                <h4>FAQ's</h4>
+                <h2>Frequently asked question</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header>
+                    Our experts have the ability to deal with sales service?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Our experts have the ability to deal with facility service,
+                    regular cleaning, specialized cleaning, office cleaning, Our
+                    experts have the ability to deal with facility service,
+                    regular cleaning, specialized cleaning, office cleaning.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="1">
+                  <Accordion.Header>
+                    Our experts have the ability to deal with sales service?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Our experts have the ability to deal with facility service,
+                    regular cleaning, specialized cleaning, office cleaning, Our
+                    experts have the ability to deal with facility service,
+                    regular cleaning, specialized cleaning, office cleaning.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="2">
+                  <Accordion.Header>
+                    Our experts have the ability to deal with sales service?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Our experts have the ability to deal with facility service,
+                    regular cleaning, specialized cleaning, office cleaning, Our
+                    experts have the ability to deal with facility service,
+                    regular cleaning, specialized cleaning, office cleaning.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="3">
+                  <Accordion.Header>
+                    Our experts have the ability to deal with sales service?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Our experts have the ability to deal with facility service,
+                    regular cleaning, specialized cleaning, office cleaning, Our
+                    experts have the ability to deal with facility service,
+                    regular cleaning, specialized cleaning, office cleaning.
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Blog Section */}
+      <section className="our_blog">
+        <div className="container">
+          {/* Heading Area */}
+          <div className="row">
+            <div className="col-md-12">
+              <div className="blog_header">
+                <h4>Our Blogs</h4>
+                <h2>
+                  Dive into a reservoir of insights & evolve with the latest
+                  market trends
+                </h2>
+              </div>
+            </div>
+          </div>
+          {/* Blog Card Area */}
+          <div className="row">
+            <div className="col-md-6">Baal</div>
+            <div className="col-md-6">Heda</div>
           </div>
         </div>
       </section>
